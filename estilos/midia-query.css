@@ -8,6 +8,7 @@
 
     section#login{
         width: 80vw;
+        height: 40vh;
     }
     section#login>div#imagem{
         float: right;
@@ -22,6 +23,45 @@
     div#formulario>p{
         font-size: 1.1em;
     }   
+    div.campo>input{
+        background-color: #9aecea;
+        font-size: 1em;
+        width: calc(100% - 41px);
+        height: 100%;
+        transform: translateY(-42px);
+        border-radius: 8px;
+        padding: 4px;
+    }
+    form>input[type=submit]{
+        display: block;
+        font-size: 1em;
+        width: 95%;
+        height: 40px;
+        margin-left: 0px;
+        background-color: #49a09d;
+        color: white;
+        border: none;
+        border-radius: 5px;
+    }
+    form>a.botao{
+        display: block;
+        text-align: center;
+        font-size: 1em;
+        width: 95%;
+        height: 40px;
+        padding-top: 5px;
+        margin-top: 5px;
+        margin-left: 0px;
+        background-color: white;
+        color:#3b817f;
+        border: 1px solid #49a09d;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+    form{
+        padding-left: 0px;
+        
+    }
     
 
 }
@@ -32,6 +72,7 @@
 
     section#login{
         width: 950px;
+        height: 500px;
     }
     section#login>div#imagem{
         float: left;
@@ -45,7 +86,47 @@
     }
     div#formulario>p{
         font-size: 1.2em;
+        padding: 10px 0px;
     }   
+    div.campo>input{
+        background-color: #9aecea;
+        font-size: 1em;
+        width: calc(100% - 41px);
+        height: 100%;
+        transform: translateY(-42px);
+        border-radius: 8px;
+        padding: 4px;
+    }
+    form>input[type=submit]{
+        display: block;
+        font-size: 1em;
+        width: 95%;
+        height: 40px;
+        margin-left: 0px;
+        background-color: #49a09d;
+        color: white;
+        border: none;
+        border-radius: 5px;
+    }
+    form>a.botao{
+        display: block;
+        text-align: center;
+        font-size: 1em;
+        width: 95%;
+        height: 40px;
+        padding-top: 5px;
+        margin-top: 5px;
+        margin-left: 0px;
+        background-color: white;
+        color: #3b817f;
+        border: 1px solid #49a09d;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+    form{
+        padding-left: 0px;
+        
+    }
     
 
 }
